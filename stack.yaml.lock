@@ -19,7 +19,7 @@ packages:
     hackage: language-javascript-0.7.0.0@sha256:3eab0262b8ac5621936a4beab6a0f97d0e00a63455a8b0e3ac1547b4088dae7d,3898
 - original:
     subdir: lib/purescript-cst
-    url: https://github.com/drathier/purescript/archive/818b5a59e813f73c19494ca6ce8ee8b363f44683.tar.gz
+    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
   completed:
     pantry-tree:
       sha256: 1cf927d2055353e126d801713278347053ccb7bd4641e6a5e8e617d56ccac5cc
@@ -27,22 +27,22 @@ packages:
     subdir: lib/purescript-cst
     version: 0.4.0.0
     name: purescript-cst
-    sha256: 97065c901887317c4c822413f6d0e0510348d6ec56b86b0fe603f059db2c7cd8
-    url: https://github.com/drathier/purescript/archive/818b5a59e813f73c19494ca6ce8ee8b363f44683.tar.gz
-    size: 723081
+    sha256: b1f9c721b2712b9d0effa61a005c63e513f7973f38441b9bfe98d8e14b62f667
+    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
+    size: 725287
 - original:
     subdir: .
-    url: https://github.com/drathier/purescript/archive/818b5a59e813f73c19494ca6ce8ee8b363f44683.tar.gz
+    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
   completed:
     pantry-tree:
-      sha256: a29e323b40be5ab1bd4459801fb66e226485b509f368b2ccf0044fc6557dfc1e
-      size: 127159
+      sha256: bb02fa46a602bb861aca4b42e08527e7ebc4a9cf454b9f75adbca300aad15226
+      size: 127218
     subdir: .
     version: 0.14.5
     name: purescript
-    sha256: 97065c901887317c4c822413f6d0e0510348d6ec56b86b0fe603f059db2c7cd8
-    url: https://github.com/drathier/purescript/archive/818b5a59e813f73c19494ca6ce8ee8b363f44683.tar.gz
-    size: 723081
+    sha256: b1f9c721b2712b9d0effa61a005c63e513f7973f38441b9bfe98d8e14b62f667
+    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
+    size: 725287
 - original:
     hackage: ansi-terminal-0.10.3@sha256:e2fbcef5f980dc234c7ad8e2fa433b0e8109132c9e643bc40ea5608cd5697797,3226
   completed:

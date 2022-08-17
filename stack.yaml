@@ -5,7 +5,7 @@ packages:
 extra-deps:
 - language-javascript-0.7.0.0
 - github: drathier/purescript
-  commit: 818b5a59e813f73c19494ca6ce8ee8b363f44683
+  commit: 8e02b7e2422dd2a7a5c845ed5f36536357fc8faf
   subdirs:
     - lib/purescript-cst
     - '.'
@@ -25,5 +25,4 @@ flags:
   # Building on certain CentOS (maybe ghc) versions
   cryptonite:
     use_target_attributes: false
-
 
