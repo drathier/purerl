@@ -19,7 +19,7 @@ packages:
     hackage: language-javascript-0.7.0.0@sha256:3eab0262b8ac5621936a4beab6a0f97d0e00a63455a8b0e3ac1547b4088dae7d,3898
 - original:
     subdir: lib/purescript-cst
-    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
+    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
   completed:
     pantry-tree:
       sha256: 1cf927d2055353e126d801713278347053ccb7bd4641e6a5e8e617d56ccac5cc
@@ -27,22 +27,22 @@ packages:
     subdir: lib/purescript-cst
     version: 0.4.0.0
     name: purescript-cst
-    sha256: b1f9c721b2712b9d0effa61a005c63e513f7973f38441b9bfe98d8e14b62f667
-    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
-    size: 725287
+    sha256: 6ac2bbe2c726c8a430c0d52e86d9124bc0db3cb67dd98e99b4b0c1ac0acb6598
+    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
+    size: 725789
 - original:
     subdir: .
-    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
+    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
   completed:
     pantry-tree:
-      sha256: bb02fa46a602bb861aca4b42e08527e7ebc4a9cf454b9f75adbca300aad15226
+      sha256: 3eec6545ab5c84f4af2dc599fff2b9b10259f38b6846e5fde4e981ec34471383
       size: 127218
     subdir: .
     version: 0.14.5
     name: purescript
-    sha256: b1f9c721b2712b9d0effa61a005c63e513f7973f38441b9bfe98d8e14b62f667
-    url: https://github.com/drathier/purescript/archive/8e02b7e2422dd2a7a5c845ed5f36536357fc8faf.tar.gz
-    size: 725287
+    sha256: 6ac2bbe2c726c8a430c0d52e86d9124bc0db3cb67dd98e99b4b0c1ac0acb6598
+    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
+    size: 725789
 - original:
     hackage: ansi-terminal-0.10.3@sha256:e2fbcef5f980dc234c7ad8e2fa433b0e8109132c9e643bc40ea5608cd5697797,3226
   completed:

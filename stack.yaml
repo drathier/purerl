@@ -5,7 +5,7 @@ packages:
 extra-deps:
 - language-javascript-0.7.0.0
 - github: drathier/purescript
-  commit: 0650c47b91529c18e3dbb283d0217c8029970ad7
+  commit: b78a0095f614a249d9797c7423effd07d6757366
   subdirs:
     - lib/purescript-cst
     - '.'
