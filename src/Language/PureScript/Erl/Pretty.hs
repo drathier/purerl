@@ -262,7 +262,7 @@ prettyPrintStringErl s = "<<" <> utf8Binary s <> ">>"
 app :: (Emit gen) => Pattern PrinterState Erl (gen, Erl)
 app = mkPattern' match
   where
-  match (EApp val args) = do
+  match (EApp _ val args) = do
     jss <- traverse prettyPrintErl' args
     return (intercalate (emit ", ") jss, val)
   match _ = mzero

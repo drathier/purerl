@@ -1,5 +1,5 @@
 name: purerl
-version: '0.0.16'
+version: '0.0.17'
 synopsis: PureScript Programming Language Erlang Back-end
 description: Erlang backend for PureScript (a small strongly, statically typed programming language with expressive
   types, inspired by Haskell).
@@ -40,7 +40,6 @@ dependencies:
   - process
   - protolude
   - purescript
-  - purescript-cst
   - serialise
   - stm
   - text
@@ -77,6 +76,17 @@ executables:
       else:
         dependencies:
         - gitrev >=1.2.0 && <1.4
+
+tests:
+  tests:
+    main: Main.hs
+    source-dirs:
+      - tests
+    dependencies:
+      - purerl
+      - hspec
+    build-tools:
+      - hspec-discover
 
 default-extensions:
   - ConstraintKinds

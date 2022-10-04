@@ -3,71 +3,70 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-snapshots:
-- original: lts-18.15
-  completed:
-    sha256: 2c9cb11d7aa0656bf28672dcb2414ab21e3ba9ea83ca170c216b2c2fc7e55856
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/15.yaml
-    size: 586286
 packages:
-- original:
-    hackage: language-javascript-0.7.0.0
-  completed:
-    pantry-tree:
-      sha256: b0f28d836cb3fbde203fd7318a896c3a20acd8653a905e1950ae2d9a64bccebf
-      size: 2244
+- completed:
     hackage: language-javascript-0.7.0.0@sha256:3eab0262b8ac5621936a4beab6a0f97d0e00a63455a8b0e3ac1547b4088dae7d,3898
-- original:
-    subdir: lib/purescript-cst
-    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
-  completed:
     pantry-tree:
-      sha256: 1cf927d2055353e126d801713278347053ccb7bd4641e6a5e8e617d56ccac5cc
-      size: 3018
-    subdir: lib/purescript-cst
-    version: 0.4.0.0
-    name: purescript-cst
-    sha256: 6ac2bbe2c726c8a430c0d52e86d9124bc0db3cb67dd98e99b4b0c1ac0acb6598
-    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
-    size: 725789
-- original:
-    subdir: .
-    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
-  completed:
-    pantry-tree:
-      sha256: 3eec6545ab5c84f4af2dc599fff2b9b10259f38b6846e5fde4e981ec34471383
-      size: 127218
-    subdir: .
-    version: 0.14.5
+      size: 2244
+      sha256: b0f28d836cb3fbde203fd7318a896c3a20acd8653a905e1950ae2d9a64bccebf
+  original:
+    hackage: language-javascript-0.7.0.0
+- completed:
+    size: 775878
+    url: https://github.com/purescript/purescript/archive/v0.15.3.tar.gz
     name: purescript
-    sha256: 6ac2bbe2c726c8a430c0d52e86d9124bc0db3cb67dd98e99b4b0c1ac0acb6598
-    url: https://github.com/drathier/purescript/archive/b78a0095f614a249d9797c7423effd07d6757366.tar.gz
-    size: 725789
-- original:
-    hackage: ansi-terminal-0.10.3@sha256:e2fbcef5f980dc234c7ad8e2fa433b0e8109132c9e643bc40ea5608cd5697797,3226
-  completed:
+    version: 0.15.3
+    sha256: 5dd52d8928561dec6f215a34235533358ade7851cf8318459f442b5721b75374
     pantry-tree:
-      sha256: 02f05d52be3ffcf36c78876629cbab80b63420672685371aea4fd10e1c4aabb6
-      size: 1461
-    hackage: ansi-terminal-0.10.3@sha256:e2fbcef5f980dc234c7ad8e2fa433b0e8109132c9e643bc40ea5608cd5697797,3226
-- original:
-    hackage: cryptonite-0.27@sha256:c3a9c8ce11e654a9d5bee827b089d4b50587272828d0c52a85362a58667a916c,18163
-  completed:
+      size: 140527
+      sha256: 2347513fc2eba150f65877eb00d742f46c275a82a74a163bda400179221b9122
+  original:
+    url: https://github.com/purescript/purescript/archive/v0.15.3.tar.gz
+- completed:
+    hackage: process-1.6.13.1@sha256:1fc2173110c0bf3274b1710c75af3f70ef6c90edafa56de7160992dec4ad4608,2845
     pantry-tree:
-      sha256: 6eeff10404aecc9028ed21e107d92dd58616dc2d1c4413c04a6dc3ce3fc3ca40
-      size: 22989
-    hackage: cryptonite-0.27@sha256:c3a9c8ce11e654a9d5bee827b089d4b50587272828d0c52a85362a58667a916c,18163
-- original:
-    hackage: dlist-0.8.0.8@sha256:90ca348bffdc62d7070bcf0e97c728f8d01b24fbc7ea08d2909157d0da76534c,2066
-  completed:
+      size: 1543
+      sha256: 3eda8fd49887605c021ad0b6264fce21dde44250d639d81e6150d8a373e1feb2
+  original:
+    hackage: process-1.6.13.1
+- completed:
+    hackage: Cabal-3.6.3.0@sha256:ff97c442b0c679c1c9876acd15f73ac4f602b973c45bde42b43ec28265ee48f4,12459
     pantry-tree:
-      sha256: 1b5b9142a932f15c77f758f92f90bea6c805c42d4c62f7a697e8e4f6cf1ad6e6
-      size: 426
-    hackage: dlist-0.8.0.8@sha256:90ca348bffdc62d7070bcf0e97c728f8d01b24fbc7ea08d2909157d0da76534c,2066
-- original:
-    hackage: optparse-applicative-0.15.1.0@sha256:29ff6146aabf54d46c4c8788e8d1eadaea27c94f6d360c690c5f6c93dac4b07e,4810
-  completed:
+      size: 19757
+      sha256: b250a53bdb56844f047a2927833bb565b936a289abfa85dfc2a63148d776368a
+  original:
+    hackage: Cabal-3.6.3.0
+- completed:
+    hackage: protolude-0.3.1@sha256:1cc9e5a5c26c33a43c52b554443dd9779fef13974eaa0beec7ca6d2551b400da,2647
     pantry-tree:
-      sha256: 04ad3816bc580cbe0834d3d1f4729ddd386abfe31b43e5b14968885f636d1b0d
-      size: 2904
-    hackage: optparse-applicative-0.15.1.0@sha256:29ff6146aabf54d46c4c8788e8d1eadaea27c94f6d360c690c5f6c93dac4b07e,4810
+      size: 1645
+      sha256: 6452a6ca8d395f7d810139779bb0fd16fc1dbb00f1862630bc08ef5a100430f9
+  original:
+    hackage: protolude-0.3.1
+- completed:
+    hackage: hspec-2.9.2@sha256:03c074bcadf13bdb5fda795fcce9f83a9532685d084bb0a325fdd632c3655a76,1709
+    pantry-tree:
+      size: 583
+      sha256: d57b65ada392a372ded96431955aaf7e531be6e1f67e91e1c0da4739e8803759
+  original:
+    hackage: hspec-2.9.2
+- completed:
+    hackage: hspec-core-2.9.2@sha256:0b1d612f6a1db1c898196e018de785a11105fd5452b40bbec168838f013a38cf,5673
+    pantry-tree:
+      size: 5039
+      sha256: 013d08dcf8bb419890a12fe70e7720b881cf9b857fbc0c1a34a2302a480207af
+  original:
+    hackage: hspec-core-2.9.2
+- completed:
+    hackage: hspec-discover-2.9.2@sha256:19d259b90dfaf71449fede71a0e850cf16b57493d74624ffddf8cd67bcec8032,2167
+    pantry-tree:
+      size: 828
+      sha256: d29a38ad6ad188dd68c11bd799307ea950ab26ee0909ba50effb5629ab2f584d
+  original:
+    hackage: hspec-discover-2.9.2
+snapshots:
+- completed:
+    size: 607265
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2022/6/9.yaml
+    sha256: 819ac07621dac5b2c320c45cb8c27f141f95114a1749b19b06d2c3606c79e839
+  original: nightly-2022-06-09
