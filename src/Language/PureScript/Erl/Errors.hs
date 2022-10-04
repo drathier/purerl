@@ -458,6 +458,11 @@ prettyPrintSingleError (PPEOptions codeColor full _level _showDocs relPath) e = 
       paras [ line $ "at " <> displaySourceSpan relPath (NEL.head srcSpan)
             , detail
             ]
+    renderHint (ErrorUnderLabel lbl) detail =
+      paras
+        [ detail
+        , line $ "under the label `" <> markCode (T.pack (decodeStringWithReplacement lbl)) <> "`"
+        ]
 
     printRow :: (Int -> Type a -> Box.Box) -> Type a -> Box.Box
     printRow f t = markCodeBox $ indent $ f prettyDepth t
