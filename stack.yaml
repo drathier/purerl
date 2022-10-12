@@ -5,7 +5,7 @@ packages:
 extra-deps:
 - language-javascript-0.7.0.0
 - github: drathier/purescript
-  commit: ac195f6ae48a7572d092a0f17ad47f8c7b3b6c2d
+  commit: 5454476e4ee735176371698185c2acd28298fbb1
 # Fix issue with libtinfo.
 # See https://github.com/purescript/purescript/issues/4253
 - process-1.6.13.1

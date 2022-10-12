@@ -458,10 +458,10 @@ prettyPrintSingleError (PPEOptions codeColor full _level _showDocs relPath) e = 
       paras [ line $ "at " <> displaySourceSpan relPath (NEL.head srcSpan)
             , detail
             ]
-    renderHint (ErrorUnderLabel lbl) detail =
+    renderHint (RelatedPositions srcSpans) detail =
       paras
         [ detail
-        , line $ "under the label `" <> markCode (T.pack (decodeStringWithReplacement lbl)) <> "`"
+        , line "todo[drathier]: port over RelatedPositions error hint"
         ]
 
     printRow :: (Int -> Type a -> Box.Box) -> Type a -> Box.Box
