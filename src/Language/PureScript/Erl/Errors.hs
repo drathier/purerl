@@ -458,11 +458,6 @@ prettyPrintSingleError (PPEOptions codeColor full _level _showDocs relPath) e = 
       paras [ line $ "at " <> displaySourceSpan relPath (NEL.head srcSpan)
             , detail
             ]
-    renderHint (RelatedPositions srcSpans) detail =
-      paras
-        [ detail
-        , line "todo[drathier]: port over RelatedPositions error hint"
-        ]
 
     printRow :: (Int -> Type a -> Box.Box) -> Type a -> Box.Box
     printRow f t = markCodeBox $ indent $ f prettyDepth t

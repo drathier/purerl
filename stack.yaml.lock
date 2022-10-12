@@ -14,14 +14,14 @@ packages:
 - completed:
     name: purescript
     pantry-tree:
-      sha256: dd3dc2a890cc72bc3b26c54a506ab97ea096838bb2d91110cafd0c1bbef1df0a
-      size: 143196
-    sha256: 96b7687a01589a953ca9a445a568d6e276177a30fc2ce6d8e5fb17c283de723f
-    size: 796625
-    url: https://github.com/drathier/purescript/archive/5454476e4ee735176371698185c2acd28298fbb1.tar.gz
-    version: 0.15.5
+      sha256: 1e393942f3cea30f87f28a2d30b2e937f20af1e58e7e92684bab17d06e2b1c5c
+      size: 140655
+    sha256: 624d7e1b19cd90ecc3780b74bc0e976a26faf368f61b9be2f65b06a35ba41061
+    size: 785677
+    url: https://github.com/drathier/purescript/archive/74c09b6bc15fd425eda67d407592b4a564a01b54.tar.gz
+    version: 0.15.4
   original:
-    url: https://github.com/drathier/purescript/archive/5454476e4ee735176371698185c2acd28298fbb1.tar.gz
+    url: https://github.com/drathier/purescript/archive/74c09b6bc15fd425eda67d407592b4a564a01b54.tar.gz
 - completed:
     hackage: process-1.6.13.1@sha256:c8bb8b7c993ff72d771381b3b56852dd154bce51880a24789c11f57b0688d353,2963
     pantry-tree:
