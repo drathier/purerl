@@ -14,7 +14,7 @@ defaults:
 
 env:
   CI_RELEASE: "${{ github.event_name == 'release' }}"
-  STACK_VERSION: "2.7.5"
+  STACK_VERSION: "2.9.1"
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
       matrix:
         include:
         - os: "ubuntu-latest"
-          image: "ghcr.io/purefunctor/haskell:9.2.3-stretch@sha256:70fd2b6255deb5daa961e6983591a0e21e9ac1e793923bee54aa2cc62e01f867"
+          image: "haskell:9.2.4@sha256:dceec00f8ad896c327c2b5c77ba91c9824bf3e26a837f538ccfb80fb379dc52f"
         - os: "macOS-10.15"
         - os: "windows-2019"
 
@@ -76,12 +76,20 @@ jobs:
         run: |
           mkdir -p "$STACK_ROOT"
           echo "local-programs-path: $STACK_ROOT/programs" > $STACK_ROOT/config.yaml
+      
+      - name: "(Release only) Check release matches tag"
+        if: "${{ env.CI_RELEASE == 'true' }}"
+        run: |
+          actual_version=$(grep version: package.yaml  | awk '{ gsub(/"/, "", $2); print $2 }')
+          [ "v${actual_version}" = "${{ github.event.release.tag_name }}" ]
+          echo "Version is $actual_version, tag is ${{ github.event.release.tag_name }}"
 
       # - run: "ci/run-hlint.sh --git"
       #   env:
       #     VERSION: "2.2.11"
 
       - run: "ci/fix-home.sh ci/build.sh"
+
 
       - name: "(Release only) Create bundle"
         if: "${{ env.CI_RELEASE == 'true' }}"
